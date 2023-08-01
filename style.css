@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color: black;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+.navbar img{
+    margin: 20px;
+}
+.list ul{
+    list-style: none;
+    display: flex;
+    
+}
+.list ul li{
+    display: inline;
+    color: white;
+    
+}
+.list ul li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+.list{
+    justify-content: space-between;
+}
+
+.but{
+    height: 32px;
+    width: 64px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    float:right;
+}
